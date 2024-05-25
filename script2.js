@@ -1,3 +1,8 @@
+/* The code is creating a rectangle element and moving it based on the position of the mouse cursor.
+The rectangle's position is mapped to the mouse position, so as the mouse moves to the left, the
+rectangle moves to the left as well. The speed of the rectangle's movement slows down as the mouse
+moves further to the left. Additionally, the code changes the background color of the body element
+and updates the image inside the rectangle element every second. */
 // ek rectagle baano  and mouse center pe ho rect center pe ho, jav mouse left jana shuru ho rect bhi left jna shuru hojaye , pr jese jese mouse left jaye rect ki speed left me jate jate speed slow hojaye, 
 
 var cursor = document.querySelector("#cursor");

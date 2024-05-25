@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(243, 203, 255);
+
+}
+
+#nav{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-between;
+    font-family: "gilroy";
+    padding: 2vw 4vw;
+}
+
+
+#nav h2 {
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+
+#nav #part2 p {
+    text-transform: capitalize;
+    font-size: 1.2vw;
+
+}
+#nav #part2 {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+#nav #part2 button{
+    border: none;
+    padding: 0.7vw 1.4vw;
+    border-radius: 50px;
+    color: black;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    text-transform: capitalize;
+    transition: all  linear 1s;
+}
+
+
+#part2 button:hover
+
+{
+    background-color: white;
+    color: black;
+
+}
+
+#center{
+    width: 70%;
+    height: 50vh;
+    position: relative;
+    /* background-color: red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+#center h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-family: "Monument";
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin-bottom: 1vw;
+}
+
+
+#center h1 span {
+    font-weight:800;
+    font-size: 7vw;
+}
+
+
+.imagediv{
+    width: 12vw;
+    height: 15vw;
+    position: absolute;
+    /* background-color: yellow; */
+    overflow: hidden;
+    /* border-radius: 10px; */
+}
+
+.imagediv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(100%);
+}

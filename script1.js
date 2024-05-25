@@ -1,3 +1,6 @@
+/* The code is creating a rectangle element on the webpage and adding an event listener to it. When the
+mouse moves over the rectangle, the code calculates the position of the mouse relative to the
+rectangle's center. */
 // make a rectangle and when me move a mouse on that rectagle the left side we want to gradually change the color of that rectagle to red and when we move mouse to the right side we want to chage the color blue
 
 
